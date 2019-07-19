@@ -1,0 +1,341 @@
+    .comment {
+        .top-banner {
+            background-image: url('../img/hospital/service_bg.jpg') !important;
+        }
+        .moreless-button {
+            color: $main-color !important;
+            text-decoration: underline !important;
+            display: block;
+            @media (max-width: 991.5px) {
+                font-size: 14px;
+            }
+            @media (max-width: 415.5px) {
+                font-size: 13px;
+            }
+            &:hover {
+                color: $color-red !important;
+            }
+        }
+        .form-control {
+            @media(max-width: 1199.5px) {
+                font-size: 14px;
+            }
+            @media(max-width: 991.5px) {
+                margin-bottom: 10px;
+            }
+            @media (max-width: 767.5px) {
+                margin-bottom: 10px;
+            }
+            @media (max-width: 575.5px) {
+                margin-bottom: 8px;
+            }
+            @media (max-width: 415.5px) {
+                font-size: 13px;
+            }
+        }
+        .input-group-text {
+            @media (max-width: 767.5px) {
+                font-size: 15px;
+            }
+            @media (max-width: 575.5px) {
+                font-size: 14px;
+            }
+            @media (max-width: 415.5px) {
+                font-size: 13px;
+            }
+        }
+        .select2-container {
+            .select2-selection--single {
+                .select2-selection__rendered {
+                    padding: 6px 12px !important;
+                    border: 1px solid $color-borderA !important;
+                    border-radius: 5px !important;
+                    @media(max-width: 1199.5px) {
+                        font-size: 14px;
+                    }
+                    @media (max-width: 415.5px) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .padding-custom {
+            padding: 0 5px;
+            @media(max-width: 991.5px) {
+                padding: 0 10px;
+            }
+        }
+        &__post {
+            margin: 20px 0;
+            position: relative;
+            background-color: $main-color;
+            border-left: 5px solid $sub-color;
+            color: $color-white;
+            text-transform: uppercase;
+            padding: 7px 30px 7px 10px;
+            font-weight: bold;
+            z-index: 1;
+            display: table;
+            box-shadow: 0px 4px 1px -3px $color-gray;
+            @media (max-width: 415.5px) {
+                margin: 15px 0;
+            }
+            &::after {
+                content: "";
+                display: table;
+                position: absolute;
+                top: 0px;
+                left: 100%;
+                width: 0px;
+                height: 0px;
+                margin-left: -14px;
+                border-bottom: 15px solid transparent;
+                border-top: 15px solid transparent;
+                border-right: 15px solid $color-white;
+                z-index: 2;
+            }
+            h5 {
+                font-size: 14px;
+                margin-bottom: 0;
+                font-weight: bold;
+            }
+        }
+        &__view {
+            padding: 0 20px;
+            @media (max-width: 415.5px) {
+                padding: 0 10px;
+            }
+        }
+        &__qa {
+            position: relative;
+            padding: 0 20px;
+            @media (max-width: 767.5px) {
+                padding: 0;
+            }
+            @media (max-width: 575.5px) {
+                padding: 0 40px;
+            }
+            @media (max-width: 415.5px) {
+                padding: 0 20px;
+            }
+            .search__qa {
+                border: 2px solid $main-color;
+                padding: 20px;
+                border-radius: 10px;
+                @media (max-width: 375.5px) {
+                    padding: 15px 20px;
+                }
+                .search-button {
+                    margin-top: 10px;
+                    text-align: center;
+                    @media(max-width: 991.5px) {
+                        margin-top: 0px;
+                    }
+                    .btn-search {
+                        width: 10rem;
+                        font-weight: bold;
+                        border-color: $main-color;
+                        background-color: $main-color;
+                        @media(max-width: 1199.5px) {
+                            font-size: 15px;
+                        }
+                        @media (max-width: 575.5px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 13px;
+                        }
+                        i {
+                            margin-right: 10px;
+                        }
+                        &:hover {
+                            background-color: $color-white;
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+            .comment {
+                padding: 20px 0 15px 0;
+                position: relative;
+                &__ask {
+                    margin-top: 20px;
+                    @media (max-width: 415.5px) {
+                        margin-top: 10px;
+                    }
+                }
+                &__answer {
+                    margin: 20px 0 20px 30px;
+                    background-color: $color-bg;
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    @media (max-width: 415.5px) {
+                        margin: 10px 0 15px 30px;
+                    }
+                    @media (max-width: 375.5px) {
+                        padding: 8px 15px;
+                    }
+                }
+                &__review {
+                    border-bottom: 2px solid $color-border;
+                    &:last-child {
+                        border-bottom: none;
+                    }
+                    &-info {
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 5px;
+                        .avatar {
+                            width: 35px;
+                            height: 35px;
+                            overflow: hidden;
+                            @media (max-width: 415.5px) {
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+                        .name {
+                            margin-left: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            h5 {
+                                color: $color-black;
+                                font-weight: bold;
+                                font-size: 16px;
+                                margin-bottom: 0.2rem;
+                                margin-top: 0.5rem;
+                                cursor: pointer;
+                                @media (max-width: 991.5px) {
+                                    font-size: 15px;
+                                }
+                                @media (max-width: 415.5px) {
+                                    font-size: 14px;
+                                }
+                                &:hover {
+                                    color: $sub-color;
+                                }
+                            }
+                            .date-time {
+                                font-size: 14px;
+                                color: $color-textA;
+                                @media (max-width: 991.5px) {
+                                    font-size: 13px;
+                                }
+                                @media (max-width: 415.5px) {
+                                    font-size: 12px;
+                                }
+                            }
+                            span {
+                                padding: 2px 4px;
+                                border-radius: 3px;
+                                color: $color-white;
+                                background: $link-color;
+                                font-size: 11px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    &-content {
+                        padding-left: 42px;
+                        p {
+                            font-size: 15px;
+                            text-align: justify;
+                            margin-bottom: 0.5rem;
+                            @media (max-width: 991.5px) {
+                                font-size: 14px;
+                            }
+                            @media (max-width: 415.5px) {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    .like-btn,
+                    .reply-btn {
+                        color: $main-color;
+                        display: inline-block;
+                        margin-right: 5px;
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        @media (max-width: 991.5px) {
+                            font-size: 13px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 12px;
+                        }
+                        &:hover {
+                            color: $color-red;
+                        }
+                    }
+                }
+            }
+        }
+        &__form {
+            @media (max-width: 767.5px) {
+                margin-bottom: 30px;
+            }
+            @media (max-width: 575.5px) {
+                padding: 0 40px;
+                margin-bottom: 25px;
+            }
+            @media (max-width: 415.5px) {
+                padding: 0 30px;
+            }
+            &-list {
+                border: 2px solid $main-color !important;
+                padding: 20px;
+                border-radius: 10px;
+                @media (max-width: 991.5px) {
+                    padding: 15px;
+                }
+                &-item {
+                    .title {
+                        color: $color-textA;
+                        font-size: 15px;
+                        font-weight: bold;
+                        @media (max-width: 575.5px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 13px;
+                        }
+                        span {
+                            color: $color-red;
+                        }
+                    }
+                    .form-control {
+                        @media (max-width: 767.5px) {
+                            font-size: 15px;
+                        }
+                        @media (max-width: 575.5px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 13px;
+                        }
+                    }
+                }
+                &-button {
+                    text-align: center;
+                    .btn-send {
+                        font-size: 15px;
+                        font-weight: bold;
+                        padding: 10px 50px;
+                        background-color: $main-color;
+                        border-color: $main-color;
+                        @media (max-width: 991.5px) {
+                            padding: 6px 12px;
+                            width: 120px;
+                        }
+                        @media (max-width: 575.5px) {
+                            font-size: 14px;
+                        }
+                        &:hover {
+                            color: $main-color;
+                            background-color: $color-white;
+                        }
+                    }
+                }
+            }
+        }
+    }

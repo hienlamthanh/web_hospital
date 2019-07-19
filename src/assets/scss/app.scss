@@ -1,0 +1,44 @@
+@charset 'utf-8';
+// Settings
+@import 'settings';
+//Libraries
+@import "bootstrap";
+@import 'slick.scss';
+@import 'slick-theme.scss';
+@import 'font-awesome';
+@import 'owl.carousel';
+@import 'owl.theme.default';
+@import './lib/select2';
+// @import 'select2-bootstrap4';
+// Components
+@import './components/header';
+@import './components/footer';
+@import './components/pagination';
+@import './components/banner-slide';
+@import './components/top-banner';
+@import './components/top-new';
+// Pages
+@import './pages/index';
+@import './pages/tintucthuongtruc';
+@import './pages/overview';
+@import './pages/history';
+@import './pages/contact';
+@import './pages/comment';
+@import './pages/structure';
+@import './pages/schedule';
+@import './pages/our-doctor';
+@import './pages/doctor-detail';
+@import './pages/examinate-schedule';
+@import './pages/khoanoi';
+@import './pages/function-room';
+@import './pages/board-director';
+@import './pages/services';
+@import './pages/service-price';
+@import './pages/recruitment';
+@import './pages/chuyenmuc';
+@import './pages/new1-chitiet';
+@import './pages/recruitment-detail';
+@import './pages/apply-form';
+@import './pages/video';
+@import './pages/video1-chitiet';
+@import'./pages/page-search';

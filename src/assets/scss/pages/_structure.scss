@@ -1,0 +1,48 @@
+.structure {
+    background-color: $color-bg;
+    .top-banner {
+        background-image: url('../img/hospital/service_bg.jpg') !important;
+    }
+    &__page {
+        padding: 40px 0;
+        @media (max-width: 991.5px) {
+            padding: 20px 0;
+        }
+    }
+    &__title {
+        margin: 20px 0;
+        text-align: center;
+        @media (max-width: 767.5px) {
+            margin: 10px 0;
+        }
+        h3 {
+            font-size: 26px;
+            font-weight: bold;
+            color: $sub-color;
+            @media (max-width: 991.5px) {
+                font-size: 28px;
+            }
+            @media (max-width: 767.5px) {
+                font-size: 26px;
+            }
+            @media (max-width: 575.5px) {
+                font-size: 24px;
+            }
+            @media(max-width: 415.5px) {
+                font-size: 22px;
+            }
+        }
+    }
+    &__image {
+        padding: 0 40px;
+        @media (max-width: 415.5px) {
+            padding: 0 25px
+        }
+        @media (max-width: 375.5px) {
+            padding: 0 10px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

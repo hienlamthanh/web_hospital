@@ -1,0 +1,19 @@
+import 'bootstrap';
+import 'popper.js';
+// import 'owl.carousel';
+// import 'select2';
+//import 'select2-bootstrap4-theme';
+
+
+import './more-info';
+import './tab-header';
+import './service-header';
+import './service-price-search';
+import './top-fixed-nav';
+import './select2';
+import './slide-banner';
+<<<<<<< HEAD
+import './search';
+=======
+import './number-count';
+>>>>>>> e8f8ea95a9f967b68297edde2cbab7cea836e3a1

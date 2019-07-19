@@ -1,0 +1,249 @@
+.overview {
+    .top-banner {
+        background-image: url('../img/hospital/service_bg.jpg') !important;
+    }
+    &__page {
+        background-color: $color-bg;
+        padding: 40px 0;
+        @media(max-width: 991.5px) {
+            padding: 20px 0;
+        }
+    }
+    &__title {
+        margin-top: 20px;
+        text-align: center;
+        h3 {
+            font-size: 30px;
+            font-weight: bold;
+            color: $sub-color;
+            @media (max-width: 991.5px) {
+                font-size: 28px;
+            }
+            @media (max-width: 767.5px) {
+                font-size: 26px;
+            }
+            @media (max-width: 575.5px) {
+                font-size: 24px;
+            }
+            @media(max-width: 415.5px) {
+                font-size: 22px;
+            }
+        }
+    }
+    &__content {
+        padding: 0 40px;
+        @media (max-width: 415.5px) {
+            padding: 0 25px;
+        }
+        @media (max-width: 375.5px) {
+            padding: 0 10px;
+        }
+        .introduce-line {
+            padding: 20px 15%;
+            text-align: center;
+            @media(max-width: 1024px) {
+                padding: 10px 50px;
+            }
+            @media(max-width: 767.5px) {
+                padding: 10px 40px 0;
+            }
+            @media (max-width: 575.5px) {
+                padding: 0px;
+            }
+            p {
+                margin-bottom: 0;
+                @media (max-width: 991.5px) {
+                    font-size: 15px;
+                }
+                @media (max-width: 415.5px) {
+                    font-size: 14px;
+                }
+                @media (max-width: 375.5px) {
+                    font-size: 13px;
+                }
+            }
+        }
+        &-item {
+            margin-top: 2rem;
+            @media(max-width: 767.5px) {
+                margin-top: 20px;
+            }
+            @media (max-width: 575.5px) {
+                margin-top: 15px;
+            }
+            @media (max-width: 415.5px) {
+                margin-top: 0;
+            }
+            @media (max-width: 375.5px) {
+                margin-top: 5px;
+            }
+            &:last-child {
+                @media (max-width: 415.5px) {
+                    margin-top: 15px !important;
+                }
+            }
+        }
+        &-text {
+            text-align: justify;
+            color: $color-textA;
+            @media (max-width: 767.5px) {
+                margin: 10px 0;
+            }
+            .title {
+                font-weight: bold;
+                font-size: 24px;
+                color: $sub-color;
+                margin-bottom: 10px;
+                @media (max-width: 991.5px) {
+                    font-size: 22px;
+                }
+                @media (max-width: 575.5px) {
+                    font-size: 20px;
+                    margin-bottom: 8px;
+                }
+                @media (max-width: 415.5px) {
+                    font-size: 18px;
+                }
+            }
+            i {
+                font-size: 10px;
+                margin-top: 5px;
+                margin-right: 20px;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                color: $sub-color;
+                @media (max-width: 991.5px) {
+                    margin-right: 15px;
+                }
+                @media (max-width: 415.5px) {
+                    margin-right: 10px;
+                }
+            }
+            p {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 10px;
+                font-size: 15px;
+                @media (max-width: 991.5px) {
+                    font-size: 14px;
+                }
+                @media (max-width: 575.5px) {
+                    margin-bottom: 8px;
+                }
+                @media (max-width: 415.5px) {
+                    margin-bottom: 5px;
+                    font-size: 13px;
+                }
+            }
+        }
+        &-image {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    &__reason {
+        .col-6 {
+            @media(max-width: 426px) {
+                flex: 0 0 100% !important;
+                max-width: 100% !important;
+            }
+        }
+        margin: 20px 0;
+        padding: 0 40px;
+        @media(max-width: 767.5px) {
+            margin: 10px 0;
+        }
+        @media (max-width: 415.5px) {
+            padding: 0 25px;
+        }
+        @media (max-width: 375.5px) {
+            padding: 0 10px;
+        }
+        &-title {
+            text-align: center;
+            color: $sub-color;
+            font-size: 24px;
+            font-weight: bold;
+            @media(max-width: 991.5px) {
+                font-size: 22px;
+            }
+            @media (max-width: 575.5px) {
+                font-size: 20px;
+            }
+            @media (max-width: 415.5px) {
+                font-size: 18px;
+            }
+        }
+        &-sub {
+            padding: 20px 40px 30px 40px;
+            text-align: center;
+            font-size: 15px;
+            @media(max-width: 1024px) {
+                padding: 10px 50px 20px;
+            }
+            @media(max-width: 767.5px) {
+                padding: 10px 40px;
+            }
+            @media (max-width: 575.5px) {
+                padding: 10px 0;
+            }
+            @media (max-width: 415.5px) {
+                font-size: 14px;
+                padding: 0 0 10px;
+            }
+            @media (max-width: 415.5px) {
+                font-size: 13px;
+            }
+        }
+        &-content {
+            text-align: center;
+            margin: 10px 0;
+            @media (max-width: 415.5px) {
+                margin: 8px 0;
+            }
+            .image {
+                img {
+                    width: 60px;
+                    @media (max-width: 415.5px) {
+                        width: 50px;
+                    }
+                }
+            }
+            .title {
+                h5 {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 20px 0;
+                    @media(max-width: 1024px) {
+                        margin: 15px 0;
+                    }
+                    @media(max-width: 991.5px) {
+                        font-size: 15px;
+                    }
+                    @media (max-width: 415.5px) {
+                        margin: 10px 0;
+                    }
+                    @media (max-width: 375.5px) {
+                        margin: 8px 0;
+                    }
+                }
+            }
+            .content {
+                text-align: center;
+                p {
+                    font-size: 15px;
+                    color: $color-textA;
+                    margin-bottom: 0;
+                    @media(max-width: 991.5px) {
+                        font-size: 14px;
+                    }
+                    @media (max-width: 415.5px) {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

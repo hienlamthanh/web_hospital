@@ -1,0 +1,129 @@
+.recruitment {
+    background-color: $color-bg;
+    .top-banner {
+        background-image: url('../img/hospital/service_bg.jpg') !important;
+    }
+    &__page {
+        padding: 40px 0;
+        @media(max-width: 991.5px) {
+            padding: 20px 0;
+        }
+    }
+    &__title {
+        margin: 20px 0 10px 0;
+        text-align: center;
+        @media(max-width: 767.5px) {
+            margin: 10px 0;
+        }
+        h3 {
+            font-size: 26px;
+            font-weight: bold;
+            color: $sub-color;
+            margin-bottom: 0;
+            @media (max-width: 991.5px) {
+                font-size: 28px;
+            }
+            @media (max-width: 767.5px) {
+                font-size: 26px;
+            }
+            @media (max-width: 575.5px) {
+                font-size: 24px;
+            }
+            @media(max-width: 415.5px) {
+                font-size: 22px;
+            }
+        }
+    }
+    &__welcome {
+        padding: 10px;
+        text-align: center;
+        margin: 0 40px;
+        @media (max-width: 767.5px) {
+            font-size: 15px;
+            padding: 0;
+        }
+    }
+    &__content {
+        padding: 0 40px;
+        @media (max-width: 415.5px) {
+            padding: 0 25px;
+        }
+        @media (max-width: 375.5px) {
+            padding: 0 10px;
+        }
+        &-item {
+            border: 2px solid $color-borderA;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            .job-detail {
+                .job-name {
+                    h3 {
+                        color: $main-color;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                    &:hover {
+                        h3 {
+                            color: $color-red;
+                        }
+                        text-decoration: none;
+                    }
+                }
+                .request {
+                    padding-left: 15px;
+                    span {
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                        @media (max-width: 415.5px) {
+                            font-size: 13px;
+                        }
+                        i {
+                            margin-right: 8px;
+                            font-size: 15px;
+                            color: $sub-color;
+                        }
+                    }
+                }
+            }
+            .apply-button {
+                text-align: center;
+                .btn-apply {
+                    margin-top: 45px;
+                    background-color: $main-color;
+                    color: $color-white;
+                    font-weight: bold;
+                    border-color: $main-color;
+                    font-size: 14px;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    @media (max-width: 767.5px) {
+                        margin-top: 15px;
+                        margin-right: 80px;
+                    }
+                    @media (max-width: 575.5px) {
+                        margin-right: 170px;
+                    }
+                    @media (max-width: 425.5px) {
+                        margin-right: 90px;
+                    }
+                    @media (max-width: 415.5px) {
+                        margin-right: 100px;
+                    }
+                    @media (max-width: 415.5px) {
+                        margin-right: 100px;
+                    }
+                    @media (max-width: 320.5px) {
+                        margin-right: 70px;
+                    }
+                    &:hover {
+                        background-color: $color-white;
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

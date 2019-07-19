@@ -1,0 +1,44 @@
+.page-newtop {
+    // border: 1px solid ;
+
+    .page-newtop-items {
+        border: 1px solid $main-color;
+        background: #eeee;
+
+        .page-newtop-item {
+            margin: 10px 10px;
+            border-bottom: 1px dashed black;
+            padding-bottom: 5px;
+
+            i {
+                font-size: 10px;
+                margin-top: 5px;
+                margin-right: 10px;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                color: #0eb10f;
+            }
+
+            a {
+                color: #262626;
+            }
+
+            a:hover {
+                color: $main-color;
+            }
+
+        }
+
+        .page-newtop-item:last-child {
+            border: none;
+            margin: 10px 10px 0 10px;
+        }
+    }
+}
+
+.page-cliptop {
+    iframe {
+        width: 100%;
+    }
+}

@@ -1,0 +1,188 @@
+.page-new {
+    background-color: #f2f2f2;
+
+    &-tintuc {
+        background-image: url(../img/tintuc/service_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-position: center;
+        z-index: 0;
+        height: 200px;
+        position: relative;
+        // opacity: 0.5;
+
+        &-title {
+            padding-top: 55px;
+            height: 200px;
+
+            h4 {
+                font-size: 40px;
+                font-weight: bold;
+                color: #262626;
+            }
+
+        }
+    }
+
+    .page-container {
+        padding: 20px 40px;
+        max-width: 1170px !important;
+        -webkit-box-shadow: 0 8px 16px rgba(10, 253, 30, 0.15), 0 2px 7px rgba(0, 0, 0, .07);
+        box-shadow: 0 8px 16px rgba(50, 50, 90, .1), 0 2px 7px rgba(0, 0, 0, .07);
+        // margin-top: -54px;
+        z-index: 5;
+        background: #fff;
+        border-radius: 3px;
+        position: relative;
+
+        .page-container-icon {
+            display: flex;
+            color: #8c8c8c;
+
+            i {
+                font-size: larger;
+            }
+
+            .new {
+                margin-left: 5px;
+            }
+
+            b {
+                margin-left: 5px;
+            }
+        }
+
+        .page-tintuc-contents {
+            .page-tintuc-content1 {
+                margin-top: 20px;
+                height: 710px;
+                background-color: #eeee;
+                padding: 20px;
+                @media (max-width : 1024px) {
+                    height: 620px;
+                }
+                @media (max-width : 575px) {
+                    height: 495px;
+                }
+                @media (max-width : 415px) {
+                    height: 460px;
+                }
+                @media (max-width : 320px) {
+                    height: 491px;
+                }
+                .new-title {
+                    // text-transform: capitalize;
+                    color: $main-color;
+
+                    h4 {
+                        font-weight: 900 !important;
+                    }
+                }
+
+                .new-content {
+                    @media (max-width : 415px) {
+                        display: none;
+                    }
+
+                }
+
+                .img {
+                    width: 100%;
+                    margin: 10px 0;
+
+                    @media (max-width : 991px) {
+                        height: 370px;
+                    }
+
+                    @media (max-width : 767px) {
+                        height: 220px;
+                    }
+                }
+
+                .btn-new {
+                    position: relative;
+                    float: right;
+                }
+
+            }
+
+            .page-tintuc-content2 {
+                margin-top: 20px;
+                // height: 710px;
+                background-color: #eeee;
+                padding: 0px 20px;
+
+                @media (max-width : 767px) {
+                    background-color: white;
+                    margin-top: 0px;
+                }
+
+                .page-tintuc-content2-item {
+                    margin-top: 20px;
+                    // height: 500px;
+                    background-color: #eeee;
+                    padding: 20px;
+
+                    .new-title {
+                        color: $main-color;
+
+                        // text-transform: capitalize;
+                        h5 {
+                            font-weight: 700;
+                        }
+
+                    }
+
+                    .new-content {
+                        @media (max-width : 415px) {
+                            display: none;
+                        }
+
+                    }
+
+                    .img {
+                        width: 100%;
+                        height: 180px;
+                        margin: 10px 0;
+
+                        @media (max-width : 991px) {
+                            height: 370px;
+                        }
+
+                        @media (max-width : 767px) {
+                            height: 220px;
+                        }
+                    }
+
+                    .btn-new {
+                        position: relative;
+                        float: right;
+                    }
+                }
+
+                .page-tintuc-content2-item:first-child::before {
+                    position: absolute;
+                    content: "";
+                    width: 1px;
+                    height: 90%;
+                    background: #b3b3b3;
+                    left: 99.9%;
+                    @media (max-width : 1366px) {
+                        left: 99.6%;
+                    }
+                    @media (max-width : 1199px) {
+                        left: 99.8%;
+                    }
+                    @media (max-width : 1024px) {
+                        left: 99.6%;
+                    }
+
+                    @media (max-width : 991px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+}

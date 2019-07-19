@@ -1,0 +1,94 @@
+.video {
+    .page-video {
+        &-content {
+            // box-shadow: inset 0 0 10px #000000;
+            background-color: #444444;
+            margin: 20px 0;
+            padding: 20px;
+
+            .new-title {
+                &-icon {
+                    // text-align: center;
+                    padding: 5px 0;
+                    color: $color-borderB;
+                }
+
+                h4:hover {
+                    color: $main-color;
+                    text-decoration: underline;
+                }
+
+                h4 {
+                    color: $sub-color;
+                }
+
+
+            }
+
+            &-item {
+                &-img {
+                    width: 100%;
+                    @media (max-width : 1366px) {
+                        height: 298px;
+                     }
+                     @media (max-width : 767px) {
+                        height:auto;
+                     }
+                }
+
+                .play-icon {
+                    color: #000000;
+                    position: absolute;
+                    width: 50px;
+                    height: 50px;
+                    margin: -20px 0px 0px -15px;
+                    padding: 0px;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 2;
+                }
+            }
+
+            .new-content {
+                color: $color-white;
+                @media (max-width : 375px) {
+                    display: none;
+                  }
+            }
+        }
+
+        &-items {
+            &-item {
+               
+                &-img {
+                    margin: 10px 0;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .play-icon {
+                        position: absolute;
+                        width: 32px;
+                        height: 32px;
+                        margin: -15px 0px 0px -15px;
+                        padding: 0px;
+                        top: 40%;
+                        left: 50%;
+                        z-index: 2;
+
+                    }
+                }
+                &-title{
+                    text-decoration: none;
+                    color: #000000;
+                }
+
+                &-title:hover {
+                    color: $main-color;
+                }
+
+            }
+        }
+    }
+}

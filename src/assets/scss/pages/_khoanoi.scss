@@ -1,0 +1,97 @@
+.khoanoi {
+    .top-banner {
+        background-image: url(../img/tintuc/service_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+        height: 200px;
+        position: relative;
+    }
+
+    .page-khoa {
+        &-items {
+            position: relative;
+
+            &-i {
+                top: 40px;
+                position: sticky;
+                width: 100%;
+                display: inline-table;
+
+                &-item {
+                    padding: 15px;
+
+
+                    i {
+                        font-size: 10px;
+                        margin-top: 5px;
+                        margin-right: 10px;
+                        color: #0eb10f;
+
+                        @media (max-width:768px) {
+                            display: none;
+                        }
+                    }
+
+                    a {
+                        font-weight: bold;
+                        color: $sub-color;
+                    }
+
+                    a:hover {
+                        color: $main-color;
+                    }
+
+                }
+            }
+
+        }
+
+        &-content {
+            &-items {
+
+                &-item {
+
+                    padding: 50px 0;
+
+                    h4 {
+                        margin: 15px 0;
+                    }
+
+                    &-texts {
+
+                        color: black;
+
+                        i {
+                            font-size: 10px;
+                            margin-top: 5px;
+                            margin-right: 10px;
+                            -webkit-transform: rotate(45deg);
+                            -ms-transform: rotate(45deg);
+                            transform: rotate(45deg);
+                            color: #0eb10f;
+                        }
+
+                        a {
+                            color: black;
+                        }
+
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+
+                    &-text {
+                        margin: 10px 0;
+                    }
+
+                    &-text1 {
+                        margin: 10px 0px 10px 50px;
+                    }
+                }
+
+            }
+        }
+    }
+}

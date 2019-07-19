@@ -1,0 +1,33 @@
+.chitiet {
+        .new {
+            &-content {
+                &-title {
+                    text-transform: uppercase;
+                    color: $main-color;
+                    font-weight: bold;
+                    // text-align: center;
+                    h4{
+                        font-weight: 900;
+                    }
+
+
+                }
+                &-date{
+                    // text-align: center;
+                    margin: 10px 0;
+                    color:$color-textB;
+                }
+                &-img{
+                    width: 100%;
+                    margin: 10px 0;
+                    // height: 400px;
+                }
+                &-item{
+                    text-align: justify;
+                }
+
+
+            }
+
+        }
+    }

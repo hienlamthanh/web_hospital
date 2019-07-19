@@ -1,0 +1,210 @@
+.recruitment-detail {
+    background-color: $color-bg;
+    .top-banner {
+        background-image: url('../img/hospital/service_bg.jpg') !important;
+    }
+    &__page {
+        padding: 40px 0;
+        @media(max-width: 991.5px) {
+            padding: 20px 0;
+        }
+    }
+    &__title {
+        margin: 20px 0 10px 0;
+        text-align: center;
+        h3 {
+            font-size: 26px;
+            font-weight: bold;
+            color: $sub-color;
+            margin-bottom: 0;
+            @media (max-width: 991.5px) {
+                font-size: 28px;
+            }
+            @media (max-width: 767.5px) {
+                font-size: 26px;
+            }
+            @media (max-width: 575.5px) {
+                font-size: 24px;
+            }
+            @media(max-width: 415.5px) {
+                font-size: 22px;
+            }
+        }
+    }
+    &__welcome {
+        padding: 10px;
+        text-align: center;
+        margin: 0 40px;
+        @media (max-width: 767.5px) {
+            font-size: 15px;
+            padding: 0;
+        }
+        @media (max-width: 415.5px) {
+            font-size: 14px;
+        }
+    }
+    &__content {
+        padding: 0 40px;
+        @media (max-width: 415.5px) {
+            padding: 0 25px;
+            margin-top: 10px;
+        }
+        @media (max-width: 375.5px) {
+            padding: 0 10px;
+        }
+        .title {
+            text-align: center;
+            margin-top: 20px;
+            @media (max-width: 767.5px) {
+                margin-top: 15px;
+            }
+            h1 {
+                font-size: 24px;
+                font-weight: bold;
+                color: $main-color;
+                @media (max-width: 767.5px) {
+                    font-size: 22px;
+                }
+                @media (max-width: 575.5px) {
+                    font-size: 20px;
+                }
+            }
+        }
+        .info {
+            text-align: center;
+            span {
+                margin-right: 15px;
+                font-size: 15px;
+                @media (max-width: 767.5px) {
+                    font-size: 14px;
+                    display: -webkit-inline-box;
+                }
+                @media (max-width: 415.5px) {
+                    font-size: 13px;
+                }
+                i {
+                    color: $sub-color;
+                    margin-right: 8px;
+                }
+            }
+        }
+        .require {
+            &-item {
+                &__title {
+                    margin-top: 25px;
+                    @media (max-width: 991.5px) {
+                        margin-top: 20px;
+                    }
+                    @media (max-width: 767.5px) {
+                        margin-top: 15px;
+                    }
+                    @media (max-width: 575.5px) {
+                        margin-top: 10px;
+                    }
+                    h5 {
+                        font-size: 18px;
+                        color: $color-white;
+                        width: 300px;
+                        font-weight: 650;
+                        background-color: $main-color;
+                        padding: 10px 20px;
+                        margin-bottom: 0;
+                        @media (max-width: 991.5px) {
+                            width: 300px;
+                            font-size: 17px;
+                        }
+                        @media (max-width: 767.5px) {
+                            width: 250px;
+                            font-size: 16px;
+                        }
+                        @media (max-width: 575.5px) {
+                            padding: 6px 12px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 15px;
+                        }
+                    }
+                    .underline {
+                        content: "";
+                        height: 3px;
+                        width: 100%;
+                        border: 1px solid $main-color;
+                    }
+                }
+                &__list {
+                    padding-left: 20px;
+                    list-style: none;
+                    margin-top: 10px;
+                    @media (max-width: 575.5px) {
+                        padding-left: 15px;
+                    }
+                    &-item {
+                        margin-bottom: 5px;
+                        font-size: 15px;
+                        text-align: justify;
+                        @media (max-width: 767.5px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 13px;
+                        }
+                        i {
+                            margin-right: 8px;
+                            color: $sub-color;
+                        }
+                    }
+                }
+                .number-list {
+                    margin: 10px 0 20px;
+                    padding-left: 20px;
+                    font-size: 15px;
+                    li {
+                        margin-bottom: 5px;
+                        @media (max-width: 767.5px) {
+                            font-size: 14px;
+                        }
+                        @media (max-width: 415.5px) {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+        .button-apply {
+            text-align: center;
+            margin: 40px 0;
+            @media (max-width: 991.5px) {
+                margin: 30px 0;
+            }
+            @media (max-width: 767.5px) {
+                margin: 20px 0;
+            }
+            @media (max-width: 575.5px) {
+                margin: 15px 0;
+            }
+            @media (max-width: 415.5px) {
+                margin: 10px 0;
+            }
+            .btn-apply {
+                background-color: $main-color;
+                color: $color-white;
+                font-weight: bold;
+                padding: 100x 20px;
+                width: 200px;
+                border: 1px solid $main-color;
+                @media (max-width: 575.5px) {
+                    padding: 6px 12px;
+                    font-size: 14px;
+                    width: 140px;
+                }
+                @media (max-width: 415.5px) {
+                    font-size: 13px;
+                }
+                &:hover {
+                    background-color: $color-white;
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}
